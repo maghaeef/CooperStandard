@@ -1,6 +1,6 @@
 # CooperStandard Project
 
-The **CooperStandard** project provides a comprehensive pipeline for processing batch process data and training a neural network model for predicting the `t5` performance metric. The project includes modules for data loading, preprocessing (including handling of time-series data), normalization, and optional data augmentation using a SMOTE-like synthetic sampling technique. It then uses a dual-input neural network architecture (combining LSTM for time-series and Dense layers for scalar features) to perform regression.
+The **CooperStandard** project provides a comprehensive pipeline for processing batch process data and training a neural network model for predicting the `t5` performance metric. The project includes modules for data loading, preprocessing (including handling of time-series data), normalization, and optional data augmentation using a SMOTE-like synthetic sampling technique. It then uses a **dual-input neural network** architecture *(combining LSTM for time-series and Dense layers for scalar features)* to perform regression.
 
 ## Repository Structure
 
